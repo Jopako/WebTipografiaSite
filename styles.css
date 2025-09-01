@@ -1,0 +1,38 @@
+:root
+{
+    --bg-body: rgb(255, 255, 255);
+    --bg-header:aquamarine;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bg-body);
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 30px; /*alinhar/distanciar h1 e nav*/ 
+    background-color: var(--bg-header);
+   
+}
+
+h1
+{   
+
+   margin-right: auto;
+   background-color: var(--bg-header);
+
+}
+.nav_links 
+{
+    list-style:none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    background-color: var(--bg-header);
+}
