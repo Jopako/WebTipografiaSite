@@ -1,7 +1,7 @@
 :root
 {
-    --bg-body: rgb(255, 255, 255);
-    --bg-header:aquamarine;
+    --bg-body: rgb(236, 228, 228);
+    --bg-header:rgb(255, 255, 255);
 }
 body
 {
@@ -18,7 +18,7 @@ header
     align-items:center;
     padding: 30px 30px; /*alinhar/distanciar h1 e nav*/ 
     background-color: var(--bg-header);
-   
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 h1
